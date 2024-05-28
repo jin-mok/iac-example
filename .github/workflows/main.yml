@@ -11,6 +11,7 @@ jobs:
       - name: Snyk monitor
         run: |
           snyk test --org=${{ secrets.SNYK_ORG }}
-          snyk iac test --org=${{ secrets.SNYK_ORG }} 
+          snyk iac test --org=${{ secrets.SNYK_ORG }}
+          snyk code test . --org=${{ secrets.SNYK_ORG }} 
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}

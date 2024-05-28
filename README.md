@@ -18,7 +18,7 @@ GitHub, Snyk and Jenkins, amongst other tools.
 
 You may wish to read the documentation and examples, and you may also wish to
 follow along and run them yourself.
-
+ 
 ### Reading
 
 If you wish to **understand each practice** in isolation, you should **read
